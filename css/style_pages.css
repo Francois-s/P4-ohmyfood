@@ -1,8 +1,16 @@
+.size_max_pages {
+    height: 1221px;
+    max-width: 1055px;
+    margin: auto;
+    position: relative;
+}
+
 .img_top {
     max-height: 500px;
     width: 100%;
     object-fit: cover;
 }
+
 
 @media screen and (max-width: 1024px) {
 

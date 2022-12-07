@@ -1,8 +1,8 @@
 .size_max_pages {
-    height: 1221px;
     max-width: 1055px;
     margin: auto;
     position: relative;
+    padding-bottom: 50px;
 }
 
 .img_top {
@@ -11,6 +11,81 @@
     object-fit: cover;
 }
 
+.al_left {
+    align-items: left;
+}
+
+/* -------------------------- Menu ---------------------------*/
+
+.menu {
+    margin-top: -100px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.top_menu {
+    display: flex;
+    padding: 51px 0px 40px 35%;
+}
+
+.h2_menu {
+    padding-right: 24px;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+.size_menu {
+    max-width: 646px;
+    margin: auto;
+    position: relative;
+    padding: 12px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 12px 30px 12px 20px;
+    margin: 12px 0px 12px 0px;
+}
+
+.p1_menu {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.p2_menu {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.p_price {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.menu_h2 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    padding-bottom: 8px;
+}
+
+.undeline_menu {
+    background-color: #99E2D0;
+    padding: 0px 10px 3px 0px;
+    max-width: 40px;
+    margin-bottom: 12px;
+}
+
+.boutton_menu {
+    padding-top: 40px;
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -18,4 +93,12 @@
         max-height: 375px;
     }
 
+    .top_menu {
+        justify-content: space-between;
+        padding: 31px 17px 40px 17px;
+    }
+
+    .size_menu {
+        max-width: 1024px;
+    }
 }

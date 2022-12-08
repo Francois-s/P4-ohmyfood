@@ -85,6 +85,32 @@
         padding: 20px 0px 20px 0px;
     }
 
+    .apear_arrow {
+        z-index: -10;
+    }
+
+    .mobil_arrow {
+        position: absolute;
+        left: 2rem;
+        height: 2rem;
+        width: 2rem;
+        top: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-50%);
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .arrow_logo {
+        display: flex;
+    }
+
+    .mobil_title {
+        padding-left: 42%;
+    }
+
     .rest {
         padding-top: 39px;
         padding-bottom: 55px;
@@ -310,9 +336,9 @@
         header h1 {
             font-size: 30px;
             font-weight: 400;
-            line-height: 44px;            
+            line-height: 44px;
             padding: 14px 0px 5px 0px;
-        }    
+        }
 
         .fonctionement {
             padding-bottom: 70px;
@@ -352,5 +378,13 @@
 
         .li_footer {
             padding-top: 7px;
+        }
+
+        .apear_arrow {
+            z-index: 151;
+        }
+
+        .mobil_title {
+            padding-left: 35%;
         }
     }

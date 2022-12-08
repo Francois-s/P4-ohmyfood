@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     animation: loader 0.01s;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     animation-fill-mode: both;
     z-index: 151;
     background-color: rgba(255, 255, 255, 0.95);

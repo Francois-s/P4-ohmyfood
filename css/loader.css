@@ -14,7 +14,7 @@
 }
 
 .size_jump {
-    height: 20px;
+    height: 12px;
     width: 150px;
     border-radius: 1rem;
     animation: jump 2s;
@@ -28,7 +28,7 @@
 .loader_2 {
     background-color: #FF79DA;
     animation-delay: 0.1s;
-    margin: 15px 0px 15px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 .loader_3 {

@@ -277,6 +277,26 @@
 
     .icon_heart_1 {
         color: #101010;
+        visibility: visible;
+    }
+
+    .icon_heart_2 {
+        color: transparent;
+        visibility: hidden;
+        margin-left: -32px;
+        position: absolute;
+        transition-duration: 1s;
+        height: 0px;
+    }
+
+    .heart_box:hover .icon_heart_2 {
+        visibility: visible;
+        color: #FF79DA;
+        height: 100%;
+    }
+
+    .heart_box:hover .icon_heart_1 {
+        visibility:hidden;    
     }
 
     .card_bottom {

@@ -44,6 +44,10 @@
         background-color: #F6F6F6;
     }
 
+    .color_1 {
+        color: #99E2D0;
+    }
+
     .al_center {
         text-align: center;
     }
@@ -243,7 +247,7 @@
     }
 
     .restaurants_cards:hover .new {
-        top: 50px;
+        margin-top: 20px;
         right: 25px;
     }
 
@@ -255,7 +259,7 @@
     }
 
     .new {
-        top: 128px;
+        margin-top: 20px;
         right: 50px;
         background-color: #99E2D0;
         color: #008766;

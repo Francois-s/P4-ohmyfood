@@ -244,6 +244,7 @@
 
     .restaurants_cards:hover {
         transform: scale(1.02);
+        transition-duration: 0.5s;
     }
 
     .restaurants_cards:hover .new {
@@ -296,7 +297,7 @@
     }
 
     .heart_box:hover .icon_heart_1 {
-        visibility:hidden;    
+        visibility: hidden;
     }
 
     .card_bottom {
@@ -338,7 +339,6 @@
     .li_footer {
         padding-right: 40px;
     }
-
 
     @media screen and (max-width: 1024px) {
 

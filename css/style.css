@@ -1,4 +1,4 @@
-    /* -------------------------- Global ---------------------------*/
+    /* Global */
 
     @font-face {
         font-family: 'Shrikhand';
@@ -78,7 +78,7 @@
         padding-left: 13.4%;
     }
 
-    /* -------------------------- Header ---------------------------*/
+    /* Header */
 
     header h1 {
         font-size: 37px;
@@ -145,7 +145,12 @@
         transform: matrix(1, 0, 0, -1, 0, 0);
     }
 
-    /* -------------------------- Loc ---------------------------*/
+    .button_rest:hover {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
+        background: linear-gradient(200.64deg, #9963db -5.2%, #fd9ee2 110.74%);
+    }
+
+    /* Loc */
 
     .top {
         margin: 0 auto;
@@ -170,7 +175,7 @@
         font-weight: bold;
     }
 
-    /* -------------------------- Fonctionement ---------------------------*/
+    /* Fonctionement */
 
     .fonctionement {
         padding: 50px 20px 80px 20px;
@@ -225,7 +230,7 @@
         background-color: #F5EDFF;
     }
 
-    /* -------------------------- Restaurants ---------------------------*/
+    /* Restaurants */
 
     .restaurants {
         padding: 50px 20px 80px 20px;
@@ -325,7 +330,6 @@
     .div_footer {
         display: flex;
         flex-direction: row-reverse;
-        align-items: right;
     }
 
     .icon_footer {
@@ -340,7 +344,7 @@
         padding-right: 40px;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 992px) {
 
         .h_rest {
             font-size: 24px;
@@ -393,7 +397,6 @@
 
         .div_footer {
             flex-direction: column;
-            align-items: left;
         }
 
         .nav_footer {
